@@ -11,7 +11,7 @@ namespace vicF\PDO;
 class PDO extends \PDO
 {
     /**
-     * Run statement same as "query" but return statement. So you can $pdo->run($sql, $arg1, $arg2)->fetchAll();
+     * Performs sql request. Prepares, binds an executes. So you can $pdo->run($sql, $arg1, $arg2)->fetchAll();
      *
      * @param $sql
      * @param mixed ...$args
